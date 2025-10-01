@@ -29,6 +29,16 @@ namespace Helper
 
             return input;
         }
+        public static bool AnswerIsYes(string query)
+        {
+
+            string input = StringInput(query + "(yes/ja or no/nee) ");
+            input = input.ToLower().Trim();
+
+            bool answerIsYes = (input == "ja" || input == "yes");
+
+            return answerIsYes;
+        }
 
     }
     }
