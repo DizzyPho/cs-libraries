@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Helper
 {
-    namespace UserInput
-    {
         internal class UserInput
         {
             public static string StringInput(string query)
@@ -17,7 +15,6 @@ namespace Helper
 
                 return input;
             }
-            
+
         }
     }
-}
