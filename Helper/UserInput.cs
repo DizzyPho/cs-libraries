@@ -10,6 +10,14 @@ namespace Helper
     {
         internal class UserInput
         {
+            public static string StringInput(string query)
+            {
+                Console.Write(query);
+                string input = Console.ReadLine();
+
+                return input;
+            }
+            
         }
     }
 }
