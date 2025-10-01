@@ -16,5 +16,19 @@ namespace Helper
                 return input;
             }
 
+        public static int IntegerInput(string query)
+        {
+            int input = int.Parse(StringInput(query));
+
+            return input;
         }
+
+        public static double DoubleInput(string query)
+        {
+            double input = double.Parse(StringInput(query));
+
+            return input;
+        }
+
+    }
     }
