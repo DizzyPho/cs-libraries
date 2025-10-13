@@ -40,5 +40,11 @@ namespace Helper.UserInputHelper
             return answerIsYes;
         }
 
+        public static decimal DecimalInput(string query)
+        {
+            decimal input = decimal.Parse(StringInput(query));
+            return input;
+        }
+
     }
     }
