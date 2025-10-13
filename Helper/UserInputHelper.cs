@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Helper.UserInputHelper
+﻿namespace Helper
 {
-        internal class UserInput
+        internal class UserInputHelper
         {
             public static string StringInput(string query)
             {
